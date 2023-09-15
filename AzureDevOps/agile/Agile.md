@@ -190,8 +190,6 @@ Azure Boards comes with filtering capabilities. With filter functions, you can i
 
    ![](./images/backlog_filter2.png)
 
-    [//]: # {% include note.html content= "When filtering is applied for backlogs, the add-a-backlog-item panel, reordering (stack ranking), and forecasting tools are disabled." %}
-
 1. To clear the filtering, choose **Clear and dismiss filters**.
    ![](./images/clearfilters.png)
 
@@ -202,9 +200,6 @@ Azure Boards comes with filtering capabilities. With filter functions, you can i
     ![](./images/boards_filter.png)
 
 1. You can filter the work items in boards or backlog view uisng a key word or Assigned To, Work Item Type, States, Area Path and Iteration Path fields.
-
-    <!-- {% include tip.html content= "For more detailed information about the filter functions and how you can apply one or more filters to an Azure Boards tool visit this  page
-    [Interactively filter backlogs, boards, queries, and plans in Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/filter-backlogs-boards-plans?view=azure-devops) {:target=\"_blank\"}" %} -->
 
 
 ### Task 4: Managing sprints and capacity ###
