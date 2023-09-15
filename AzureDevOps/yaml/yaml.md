@@ -2,7 +2,7 @@
 title: Configuring CI/CD Pipelines as Code with YAML in Azure DevOps
 layout: default
 parent: Azure DevOps
-nav_order: 1
+nav_order: 4
 ---
 <div class="rw-ui-container"></div>
 <a name="Overview"></a>
@@ -100,7 +100,7 @@ You’ll need to locate the **“{your_username}”** and **“{your_password}�
 
 1. Click **Save** to commit.
 
-<a name="Ex1Task3"></a>
+
 ### Task 3: Configuring the Parts Unlimited project ###
 
 1. Navigate to your team project on Azure DevOps in a new browser tab. Before digging into the YAML pipelines, you will want to disable the existing build pipeline.
@@ -117,7 +117,6 @@ You’ll need to locate the **“{your_username}”** and **“{your_password}�
 
     ![](./images/010.png)
 
-<a name="Ex1Task4"></a>
 ### Task 4: Adding a YAML build definition ###
 
 1. Navigate to the **Pipelines** hub.
@@ -174,7 +173,6 @@ You’ll need to locate the **“{your_username}”** and **“{your_password}�
 
     ![](./images/023.png)
 
-<a name="Ex1Task5"></a>
 ### Task 5: Adding continuous delivery to the YAML definition ###
 
 1. Now that the build and test processes are successful, we can now add delivery to the YAML definition. From the options dropdown, select **Edit pipeline**.
@@ -302,7 +300,6 @@ You’ll need to locate the **“{your_username}”** and **“{your_password}�
 
     ![](./images/050.png)
 
-<a name="Ex1Task6"></a>
 ### Task 6: Reviewing the deployed site ###
 
 1. Return to the Azure portal browser tab.

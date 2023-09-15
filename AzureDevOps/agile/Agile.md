@@ -618,7 +618,6 @@ In this task we'll create a new process that inherits from Scrum. The one change
 
 Thanks to **Nagaraj Bhairaji** for making a video on this lab. You can watch the following video that walks you through all the steps explained in this lab
 
-<video src="https://www.youtube.com/embed/WWUf5OWeBD0" width="560" height="315" controls></video>
-<!-- <figure class="video_container">
+<figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/WWUf5OWeBD0" frameborder="0" allowfullscreen="true"> </iframe>
-</figure> -->
+</figure>
