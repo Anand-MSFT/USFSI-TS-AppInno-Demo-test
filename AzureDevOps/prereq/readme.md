@@ -1,6 +1,8 @@
 ---
 title: Azure DevOps Lab Prerequisites
 layout: default
+parent: Azure DevOps
+nav_order: 1
 ---
 
 ## Overview ##
