@@ -1,7 +1,7 @@
 ---
 title: Agile Planning and Portfolio Management with Azure Boards
 layout: default
-parent: AzureDevOps
+parent: Azure DevOps
 nav_order: 1
 ---
 
