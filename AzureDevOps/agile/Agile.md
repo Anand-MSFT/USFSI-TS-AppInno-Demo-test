@@ -1,7 +1,6 @@
 ---
 title: Agile Planning and Portfolio Management with Azure Boards
 layout: default
-sidebar: vsts
 permalink: /AzureDevOps/agile/
 folder: /AzureDevOps/agile/
 version: Lab version - 1.37.1
