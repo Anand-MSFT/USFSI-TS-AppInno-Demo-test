@@ -8,24 +8,19 @@ version: Lab version - 1.37.1
 updated: Last updated - 10/11/2020
 nav_order: 1
 ---
-<a name="Overview"></a>
 
 ## Overview ##
 
 In this lab, you will learn about the agile planning and portfolio management tools and processes provided by Azure Boards and how they can help you quickly plan, manage, and track work across your entire team. You will explore the product backlog, sprint backlog, and task boards which can be used to track the flow of work during the course of an iteration. We will also take a look at how the tools have been enhanced in this release to scale for larger teams and organizations.
 
-<div class="bg-slap"><img src="./images/mslearn.png" class="img-icon-cloud" alt="MS teams" style="
-    width: 48px; height: 48px;">Want additional learning? Check out the  <a href="https://docs.microsoft.com/en-us/learn/modules/choose-an-agile-approach/" target="_blank"><b><u> Agile approach to software development </u></b></a> module on Microsoft Learn.</div>
+<div><img src="./images/mslearn.png" alt="MS teams" style="width: 48px; height: 48px;">Want additional learning? Check out the  <a href="https://docs.microsoft.com/en-us/learn/modules/choose-an-agile-approach/" target="_blank"><b><u> Agile approach to software development </u></b></a> module on Microsoft Learn.</div>
 
-<a name="Prerequisites"></a>
 ### Prerequisites ###
 
 - This lab requires you to complete task 1 from the <a href="../prereq/">prerequisite</a> instructions. (No cloning needed for this lab, skip Task 2)
 
-<a name="Exercise1"></a>
 ## Exercise 1: Agile Project Management ##
 
-<a name="Ex1Task1"></a>
 ### Task 1: Working with teams, areas, and iterations ###
 
 1. Navigate to your Parts Unlimited project on Azure DevOps. It will be something like [https://dev.azure.com/YOURACCOUNT/Parts%20Unlimited](https://dev.azure.com/YOURACCOUNT/Parts Unlimited).
@@ -70,7 +65,6 @@ In this lab, you will learn about the agile planning and portfolio management to
 
     ![](./images/009.png)
 
-<a name="Ex1Task2"></a>
 ### Task 2: Working with work items ###
 
 Work items play a prominent role in Azure DevOps. Whether describing work to be done, impediments to release, test definitions, or other key items, work items are the workhorse of modern projects. In this task you'll focus on using various work items to set up the plan to extend the Parts Unlimited site with a product training section. While it can be daunting to build out such a substantial part of a company's offering, Azure DevOps and the Scrum process make it very manageable.
@@ -180,7 +174,6 @@ This task is designed to illustrate a variety of ways you can create different k
 
     ![](./images/035.png)
 
-<a name="Ex1Task3"></a>
 ### Task 3: Working with filters in backlogs and boards ###
 
 Azure Boards comes with filtering capabilities. With filter functions, you can interactively apply one or more filters to an Azure Boards tool.  Filter functions available in Work items, Boards, Backlogs, Sprint Backlogs and Taskboards, Queries, and Delivery Plans. In this exercise, you will see the filters in the boards and backlogs.
@@ -214,7 +207,6 @@ Azure Boards comes with filtering capabilities. With filter functions, you can i
     [Interactively filter backlogs, boards, queries, and plans in Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/filter-backlogs-boards-plans?view=azure-devops) {:target=\"_blank\"}" %}
 
 
-<a name="Ex1Task4"></a>
 ### Task 4: Managing sprints and capacity ###
 
 Your team builds the sprint backlog during the sprint planning meeting, typically held on the first day of the sprint. Each sprint corresponds to a time-boxed interval which supports your team's ability to work using Agile processes and tools. During the planning meeting, your product owner works with your team to identify those stories or backlog items to complete in the sprint.
@@ -317,7 +309,6 @@ Planning meetings typically consist of two parts. In the first part, the team an
 
     ![](./images/059.png)
 
-<a name="Ex1Task5"></a>
 ### Task 5: Customizing Kanban boards ###
 
 To maximize a team's ability to consistently deliver high quality software, Kanban emphasize two main practices. The first, visualize the flow of work, requires you to map your team's workflow stages and configure your Kanban board to match. The second, constrain the amount of work in progress, requires you to set work-in-progress (WIP) limits. You're then ready to track progress on your Kanban board and monitor key metrics to reduce lead or cycle time. Your Kanban board turns your backlog into an interactive signboard, providing a visual flow of work. As work progresses from idea to completion, you update the items on the board. Each column represents a work stage, and each card represents a user story (blue cards) or a bug (red cards) at that stage of work. However, every team develops its own process over time, so the ability to customize the Kanban board to match the way your team works is crucial.
@@ -444,7 +435,6 @@ To maximize a team's ability to consistently deliver high quality software, Kanb
 
     ![](./images/085.png)
 
-<a name="Ex1Task6"></a>
 ### Task 6: Defining dashboards ###
 
 1. Select **Overview \| Dashboards**.
@@ -527,7 +517,6 @@ To maximize a team's ability to consistently deliver high quality software, Kanb
 
     ![](./images/105.png)
 
-<a name="Ex1Task7"></a>
 ### Task 7: Customizing team process ###
 
 In Azure DevOps, you customize your work tracking experience through a process. A process defines the building blocks of the work item tracking system as well as other sub-systems you access through Azure DevOps. Whenever you create a team project, you select the process which contains the building blocks you want for your project.
@@ -638,6 +627,7 @@ In this task we'll create a new process that inherits from Scrum. The one change
 
 Thanks to **Nagaraj Bhairaji** for making a video on this lab. You can watch the following video that walks you through all the steps explained in this lab
 
-<figure class="video_container">
+<video src="https://www.youtube.com/embed/WWUf5OWeBD0" width="560" height="315" controls></video>
+<!-- <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/WWUf5OWeBD0" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+</figure> -->
