@@ -8,8 +8,9 @@
   <div id="content"></div>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    document.getElementById('content').innerHTML =
-      marked.parse('https://github.com/microsoft/azuredevopslabs/blob/master/labs/azuredevops/deliveryplans/readme.md');
+    fetch('https://github.com/microsoft/azuredevopslabs/blob/master/labs/azuredevops/deliveryplans/readme.md') 
+    .then(response => response.text())
+    .then(result => document.getElementById('content').innerHTML = marked(result));
   </script>
 </body>
 </html>
