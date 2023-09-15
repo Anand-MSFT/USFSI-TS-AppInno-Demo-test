@@ -5,4 +5,4 @@ parent: Azure DevOps
 nav_order: 2
 ---
 
-[include](https://github.com/microsoft/azuredevopslabs/blob/master/labs/azuredevops/deliveryplans/readme.md)
+{% include_relative https://github.com/microsoft/azuredevopslabs/blob/master/labs/azuredevops/deliveryplans/readme.md %}
